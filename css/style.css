@@ -1,0 +1,154 @@
+
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+/*DISEÑO BOTONES*/
+button{
+	background-color: #41521F;
+	color: white;
+	padding: 10px 16px;
+	border-radius: 8px;
+	transition: .5s all ease;
+}
+button:hover{
+	cursor: pointer;
+	background-color: #E7F0D2;
+	color: #83B271;
+	transition: .5s all ease;
+}
+/*DISEÑO NAVBAR*/
+.navbar-inverse{
+	background-color: transparent;
+	border: none;
+}
+.navbar-inverse .navbar-nav li a{
+	color: white;
+	transition: .5s all ease;
+}
+.navbar-inverse .navbar-nav li a:hover{
+	color: #83B271;
+	font-style: italic;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s all ease
+	text-shadow: 2px 2px #ff0000;
+}
+/*DISEÑO SECTION 1*/
+.first-section{
+	background-image: url(../img/portada.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.first-section .caja-texto h1{
+	padding-top: 3em;
+	color: #A89F68;
+	font-weight: 700;
+	font-size: 60px;
+}
+.first-section .caja-texto p{
+	color: white;
+	text-align: justify;
+}
+/*DISEÑO SECTION 2*/
+.second-section{
+	background-color: white;
+	padding: 50px 20px;
+	min-height: 100vh;
+}
+.second-section .caja-texto{
+	padding-top: 140px;
+}
+.second-section .caja-texto h2, 
+.second-section .caja-texto h3, 
+.second-section .caja-texto a{
+	color: #A89F68;
+}
+/*DISEÑO SECTION 3*/
+.third-section{
+	background-color: #A89F68;
+	padding: 70px 20px;
+	color: white;
+}
+.third-section .caja-texto h2{
+	color: #41521F;
+	font-size: 1,5rem;
+	font-weight: 700;
+}
+.third-section .caja-texto h2 small{
+	color: white;
+}
+/*DISEÑO SECTION 4*/
+.fourth-section{
+	background-image: url(../img/all.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 70px;
+	color: white;
+}
+.fourth-section .caja-texto h2 small, 
+.fourth-section .caja-texto p{
+	color: white;
+}
+/*DISEÑO SECTION 5*/
+.fifth-section{
+	padding: 70px;
+}
+.fifth-section .title h2{
+	color: #A89F68;
+}
+.fifth-section .caja-texto{
+	padding-top: 40px;
+}
+.fifth-section .caja-texto h2 i{
+	font-size: 7rem;
+	color: #A89F68;
+}
+.fifth-section .caja-texto a{
+	color: #A89F68;
+}
+/*DISEÑO SECTION 6*/
+.sixth-section{
+	background-color: #A89F68;
+	padding: 70px 20px;
+}
+.sixth-section .title{
+	color: #41521F;
+}
+.sixth-section .caja-texto{
+	padding-top: 40px;
+}
+.sixth-section .caja-texto h1{
+	font-size: 7rem;
+	color: white;
+} 
+.sixth-section .caja-texto h1 small{
+	font-size: 2rem;
+	color: white;
+}
+.sixth-section .caja-texto hr{
+	border-color: white;
+}
+/*FOOTER*/
+footer{
+	background-color: #41521F;
+	padding: 40px 20px;
+}
+footer .caja-texto h6,
+footer .caja-texto p a{
+	color: #A89F68;
+}
+footer .caja-texto p{
+	color: white;
+}
+footer .caja-links a{
+	color: #A89F68;
+}
+footer .made-by p{
+	padding-top: 50px;
+	color: white;
+	font-size: 1rem;
+	font-style: italic;
+}

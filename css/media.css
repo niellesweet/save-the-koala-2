@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 767px) {
+	.first-section #koala-1 .caja-texto{
+		position: absolute;
+		width: 90%;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+	}
+	.second-section{
+		padding: 3em 0;
+	}
+
+}
