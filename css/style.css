@@ -3,18 +3,21 @@
 	font-family: 'Montserrat', sans-serif;
 }
 /*DISEÑO BOTONES*/
-button{
+button.buttons{
 	background-color: #41521F;
 	color: white;
 	padding: 10px 16px;
 	border-radius: 8px;
 	transition: .5s all ease;
 }
-button:hover{
+button.buttons:hover{
 	cursor: pointer;
 	background-color: #E7F0D2;
 	color: #83B271;
 	transition: .5s all ease;
+}
+.modal h4 {
+	color: black;
 }
 /*DISEÑO NAVBAR*/
 .navbar-inverse{
